@@ -1,0 +1,116 @@
+{
+    "name": "tira-theme",
+    "displayName": "Tira Theme",
+    "version": "0.1.0",
+    "description": "A collection of carefully crafted themes for Visual Studio Code",
+    "publisher": "",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Vira Theme Carbon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Carbon.json"
+            },
+            {
+                "label": "Vira Theme Carbon High Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Carbon-High-Contrast.json"
+            },
+            {
+                "label": "Vira Theme Deepforest",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Deepforest.json"
+            },
+            {
+                "label": "Vira Theme Deepforest High Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Deepforest-High-Contrast.json"
+            },
+            {
+                "label": "Vira Theme Graphene",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Graphene.json"
+            },
+            {
+                "label": "Vira Theme Graphene High Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Graphene-High-Contrast.json"
+            },
+            {
+                "label": "Vira Theme Ocean",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Ocean.json"
+            },
+            {
+                "label": "Vira Theme Ocean High Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Ocean-High-Contrast.json"
+            },
+            {
+                "label": "Vira Theme Palenight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Palenight.json"
+            },
+            {
+                "label": "Vira Theme Palenight High Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Palenight-High-Contrast.json"
+            },
+            {
+                "label": "Vira Theme Teal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Teal.json"
+            },
+            {
+                "label": "Vira Theme Teal High Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vira-Theme-Teal-High-Contrast.json"
+            }
+        ],
+        "iconThemes": [
+            {
+                "id": "vira-icons-carbon",
+                "label": "Vira Icons Carbon",
+                "path": "./themes/Vira-Icons-Carbon.json"
+            },
+            {
+                "id": "vira-icons-deepforest",
+                "label": "Vira Icons Deepforest",
+                "path": "./themes/Vira-Icons-Deepforest.json"
+            },
+            {
+                "id": "vira-icons-graphene",
+                "label": "Vira Icons Graphene",
+                "path": "./themes/Vira-Icons-Graphene.json"
+            },
+            {
+                "id": "vira-icons-ocean",
+                "label": "Vira Icons Ocean",
+                "path": "./themes/Vira-Icons-Ocean.json"
+            },
+            {
+                "id": "vira-icons-palenight",
+                "label": "Vira Icons Palenight",
+                "path": "./themes/Vira-Icons-Palenight.json"
+            },
+            {
+                "id": "vira-icons-teal",
+                "label": "Vira Icons Teal",
+                "path": "./themes/Vira-Icons-Teal.json"
+            }
+        ]
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "icon theme",
+        "color theme"
+    ],
+    "license": "MIT"
+}
