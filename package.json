@@ -7,10 +7,60 @@
     "engines": {
         "vscode": "^1.80.0"
     },
+    "main": "./out/extension.js",
+    "activationEvents": [
+        "onStartupFinished"
+    ],
     "categories": [
         "Themes"
     ],
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "lint": "eslint src --ext ts"
+    },
+    "devDependencies": {
+        "@types/node": "^16.x",
+        "@types/vscode": "^1.80.0",
+        "@typescript-eslint/eslint-plugin": "^6.x",
+        "@typescript-eslint/parser": "^6.x",
+        "eslint": "^8.x",
+        "typescript": "^5.x"
+    },
     "contributes": {
+        "configuration": {
+            "title": "Tira Theme",
+            "properties": {
+                "tira-theme.accentColor": {
+                    "type": "string",
+                    "enum": [
+                        "acid lime",
+                        "blue",
+                        "bright teal",
+                        "cyan",
+                        "indigo",
+                        "lime",
+                        "orange",
+                        "pink",
+                        "purple",
+                        "teal",
+                        "tomato",
+                        "white",
+                        "yellow"
+                    ],
+                    "default": "cyan",
+                    "description": "The accent color to use for UI elements in the Tira theme."
+                }
+            }
+        },
+        "commands": [
+            {
+                "command": "tira-theme.changeAccentColor",
+                "title": "Tira Theme: Change Accent Color"
+            }
+        ],
         "themes": [
             {
                 "label": "Vira Theme Carbon",

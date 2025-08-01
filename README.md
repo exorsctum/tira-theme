@@ -28,7 +28,3 @@ A collection of carefully crafted themes for Visual Studio Code, featuring multi
 4. Click **Reload**
 5. File > Preferences > Color Theme > **Select your preferred Vira Theme variant**
 6. File > Preferences > File Icon Theme > **Select your preferred Vira Icons variant**
-
-## License
-
-MIT License
